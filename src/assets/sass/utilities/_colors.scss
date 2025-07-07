@@ -1,0 +1,25 @@
+
+/* Colors class start */
+@each $color, $shades in $colors {
+    @each $shade, $value in $shades {
+      .text-#{$color}-#{$shade} {
+        color: var(--#{$color}-#{$shade});
+      }
+    }
+  }
+  
+.text {
+    &--white {
+      color: hsl(var(--white));
+    }
+    &-heading {
+      color: hsl(var(--heading-color));
+    }
+    &-body {
+      color: hsl(var(--body-color));
+    }
+    &-main {
+      color: var(--main-600);
+    }
+}
+/* Colors class End */

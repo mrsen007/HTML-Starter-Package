@@ -1,0 +1,22 @@
+
+/* ================================= Classes Css Start =========================== */
+.col-xs-6 {
+    @media screen and (min-width: 425px) and (max-width: 575px) {
+        width: 50%;
+    }
+}
+
+.tw-leading {
+    &-none {
+        line-height: 1;
+    }
+}
+
+.opacity-05 {
+    opacity: .05;
+}
+
+.opacity-1 {
+    opacity: .1;
+}
+/* ================================= Classes Css End =========================== */

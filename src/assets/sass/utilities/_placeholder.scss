@@ -1,0 +1,67 @@
+/* Placeholder Classes Start */
+.tw-placeholder-text {
+    &-neutral-100 {
+        &::placeholder {
+            color: var(--neutral-100);
+        }        
+    }
+    &-neutral-200 {
+        &::placeholder {
+            color: var(--neutral-200);
+        }        
+    }
+    &-neutral-300 {
+        &::placeholder {
+            color: var(--neutral-300);
+        }        
+    }
+    &-neutral-400 {
+        &::placeholder {
+            color: var(--neutral-400);
+        }        
+    }
+    &-neutral-500 {
+        &::placeholder {
+            color: var(--neutral-500);
+        }        
+    }
+    &-neutral-600 {
+        &::placeholder {
+            color: var(--neutral-600);
+        }        
+    }
+    &-neutral-700 {
+        &::placeholder {
+            color: var(--neutral-700);
+        }        
+    }
+    &-neutral-800 {
+        &::placeholder {
+            color: var(--neutral-800);
+        }        
+    }
+    &-neutral-900 {
+        &::placeholder {
+            color: var(--neutral-900);
+        }        
+    }
+}
+
+.focus-tw-placeholder-text {
+    &-hidden {
+        &:focus {
+            &::placeholder {
+                opacity: 0;
+            }
+        }
+    }
+}
+
+.tw-placeholder-transition {
+    &-2 {
+        &::placeholder {
+            transition: .2s linear;
+        }
+    }
+}
+/* Placeholder Classes End */

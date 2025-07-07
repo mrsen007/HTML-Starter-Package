@@ -1,0 +1,51 @@
+<!-- ==================== Header Start Here ==================== -->
+<header class="header bg-neutral-100 tw-transition-all tw-z-99">
+  <div class="container container-two">
+    <nav
+      class="d-flex align-items-center justify-content-between position-relative"
+    >
+      <!-- Logo Start -->
+      <div class="logo">
+        <a href="index.html" class="link">
+          <img
+            src="assets/images/logo/logo.png"
+            alt="Logo"
+            class="max-w-200-px"
+          >
+        </a>
+      </div>
+      <!-- Logo End  -->
+
+      <!-- Menu Start  -->
+      <div class="header-menu d-lg-block d-none">
+        @@include('../partials/_nav-menu.html', { "class" : "tw-gap-6" })
+      </div>
+      <!-- Menu End  -->
+
+      <!-- Header Right start -->
+      <div class="d-lg-block d-none">
+        <div class="d-flex align-items-center tw-gap-105 flex-shrink-0">
+          <a
+            href="register.html"
+            class="hover--translate-y-1 transition-all text-lg hover-underline text-heading hover-text-neutral-900 fw-medium"
+            >Login</a
+          >
+          <span>/</span>
+          <a
+            href="register.html"
+            class="hover--translate-y-1 transition-all text-lg hover-underline text-heading hover-text-neutral-900 fw-medium"
+            >Register</a
+          >
+        </div>
+      </div>
+      <button
+        type="button"
+        class="toggle-mobileMenu leading-none d-lg-none ms-3 text-neutral-800 tw-text-9"
+      >
+        <i class="ph ph-list"></i>
+      </button>
+      <!-- Header Right End  -->
+    </nav>
+  </div>
+</header>
+<!-- ==================== Header End Here ==================== -->

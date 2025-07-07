@@ -1,0 +1,28 @@
+/* Custom Cursor Css Start */
+.cursor,
+.dot {
+  width: 32px;
+  height: 32px;
+  border: 1px solid hsl(var(--white));
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999999;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  font-size: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  mix-blend-mode: difference;
+}
+.dot {
+  width: 4px;
+  height: 4px;
+  background-color: hsl(var(--white));
+  mix-blend-mode: difference;
+}
+/* Custom Cursor Css End */

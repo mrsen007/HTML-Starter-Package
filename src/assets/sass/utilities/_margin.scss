@@ -1,0 +1,102 @@
+/* ================================= Margin Css Start =========================== */
+@each $property, $value in $spaces {
+  .tw-m-#{$property} {
+    margin: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-mx-#{$property} {
+    margin-inline: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-my-#{$property} {
+    margin-block: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-ms-#{$property} {
+    margin-inline-start: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-me-#{$property} {
+    margin-inline-end: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-mt-#{$property} {
+    margin-block-start: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-mb-#{$property} {
+    margin-block-end: var(--size-#{$property});
+  }
+}
+
+
+.tw {
+  &-ms-auto {
+    margin-inline-start: auto;
+  }
+  &-me-auto {
+    margin-inline-end: auto;
+  }
+}
+
+.my-120 {
+  margin-block-start: 60px;
+  margin-block-end: 60px;
+  @media (min-width: 576px) {
+    margin-block-start: 80px;
+    margin-block-end: 80px;
+  }
+  @media (min-width: 992px) {
+    margin-block-start: 120px;
+    margin-block-end: 120px;
+  }
+}
+.mt-120 {
+    margin-block-start: 60px;
+    @media (min-width: 576px) {
+    margin-block-start: 80px;
+  }
+    @media (min-width: 992px) {
+    margin-block-start: 120px;
+  }
+}
+.mb-120 {
+    margin-block-end: 60px;
+    @media (min-width: 576px) {
+    margin-block-end: 80px;
+  }
+    @media (min-width: 992px) {
+    margin-block-end: 120px;
+  }
+}
+.mt-60 {
+    margin-block-start: 30px;
+    @media (min-width: 576px) {
+    margin-block-start: 40px;
+  }
+    @media (min-width: 992px) {
+    margin-block-start: 60px;
+  }
+}
+  .mb-60 {
+    margin-block-end: 30px;
+    @media (min-width: 576px) {
+    margin-block-end: 40px;
+  }
+    @media (min-width: 992px) {
+    margin-block-end: 60px;
+  }
+}
+/* ================================= Margin Css End =========================== */

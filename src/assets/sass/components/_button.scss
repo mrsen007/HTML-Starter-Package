@@ -1,0 +1,110 @@
+/* ========================== Button Css Start =============== */
+.button__label {
+    position: relative;
+    text-align: center;
+    transition: color 0.05s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.button--stroke {
+    &:hover {
+        color: #0e100f;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border: 0.125rem solid #fffce1;
+        border-radius: inherit;
+        pointer-events: none;
+    }
+    .button__flair {
+        transform: scale(0);
+        transform-origin: 0 0;
+    }
+    .button__label {
+        transition: color 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    }
+}
+
+.button__flair {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200%;
+        aspect-ratio: 1/1;
+        background-color: #fffce1;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+    }
+}
+
+.btn {
+    border: 0;
+    color: hsl(var(--white));
+    line-height: 1;
+    padding: 18px 32px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    z-index: 1;
+    transition: .2s linear;
+    &:hover, &:focus, &:focus-visible {
+        box-shadow: none !important;
+    }
+    // ============= Different Color Button Start ==================
+    &-main {
+        background-color: var(--main-600) !important;
+        color: hsl(var(--white)) !important;
+        &.button--stroke {
+            &::after {
+                border-color: transparent;
+            }
+        }
+    
+    }
+}
+
+.hover-style {
+    &-one {
+        &:hover, &:active {
+            background-color: var(--main-600);
+            &.button--stroke {
+                &::after {
+                    border-color: transparent;
+                }
+            }
+        }
+        .button__flair {
+            &::before {
+                background-color: var(--main-two-600);
+            }
+        }
+    }
+    &-two {
+        &:hover, &:active {
+            color: var(--main-two-600) !important;
+            &.button--stroke {
+                &::after {
+                    border-color: transparent;
+                }
+            }
+        }
+        .button__flair {
+            &::before {
+                background-color: hsl(var(--white));
+            }
+        }
+    }
+}
+/* =========================== Button Css End =================== */

@@ -1,0 +1,14 @@
+/* Text Decoration Start */
+.hover {
+    &-underline {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &-underline-none {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+/* Text Decoration End */

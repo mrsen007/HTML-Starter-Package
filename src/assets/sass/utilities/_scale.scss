@@ -1,0 +1,88 @@
+/* Hover Scale Css start */
+.tw-scale {
+    &-04 {
+        transform: scale(0.4);
+    }
+    &-08 {
+        transform: scale(0.8);
+    }
+}
+
+.hover-scale {
+    &-09 {
+        &:hover {
+            transform: scale(0.9);
+        }
+    }
+    &-094 {
+        &:hover {
+            transform: scale(0.94);
+        }
+    }
+    &-098 {
+        &:hover {
+            transform: scale(0.98);
+        }
+    }
+    &-102 {
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
+    &-104 {
+        &:hover {
+            transform: scale(1.04);
+        }
+    }
+    &-106 {
+        &:hover {
+            transform: scale(1.06);
+        }
+    }
+    &-108 {
+        &:hover {
+            transform: scale(1.08);
+        }
+    }
+    &-2 {
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+    &-20 {
+        &:hover {
+            transform: scale(2);
+        }
+    }
+    &-30 {
+        &:hover {
+            transform: scale(3);
+        }
+    }
+}
+/* Hover Scale Css End */
+
+/* Active Scale Css End */
+.active-scale {
+    &-09 {
+        &:active {
+            transform: scale(0.9);
+        }
+    }
+    &-094 {
+        &:active {
+            transform: scale(0.94);
+        }
+    }
+    &-098 {
+        &:active {
+            transform: scale(0.98);
+        }
+    }
+    &-102 {
+        &:active {
+            transform: scale(1.02);
+        }
+    }
+}
+/* Active Scale Css End */

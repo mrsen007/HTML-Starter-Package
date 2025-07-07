@@ -1,0 +1,23 @@
+/* width Css Class start */
+@each $property, $value in $spaces {
+  .tw-w-#{$property} {
+    width: $value;
+  }
+}
+
+.min-w-max {
+  min-width: max-content;
+}
+
+.tw-w {
+  &-px {
+    width: 1px;
+  }
+  &-300-px {
+    width: 300px;
+  }
+  &-w-max {
+    width: max-content;
+  }
+}
+/* width Css Class End */

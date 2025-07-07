@@ -1,0 +1,76 @@
+/*================================== Translate Css Start ==================================*/
+/* Translate X */
+.tw-translate-x-50 {
+    transform: var(--translate-x-50);
+}
+.tw--translate-x-full {
+    transform: translateX(-100%);
+}
+
+.tw--translate-middle {
+    transform: var(--translate-x-50) var(--translate-y-50);
+}
+
+/* Translate Y */
+.tw--translate-y-50 {
+    transform: var(--translate-y-50);
+}
+
+.active--translate-y-scale-9 {
+    &:active {
+        transform: translateY(-4px) scale(.94);
+        transition: .06s;
+    }
+}
+
+.hover--translate-y {
+    &-05 {
+        &:hover {
+            transform: translateY(-2px);
+        }
+    }
+    &-1 {
+        &:hover {
+            transform: translateY(-4px);
+        }
+    }
+    &-2 {
+        &:hover {
+            transform: translateY(-8px);
+        }
+    }
+}
+
+.active--translate-y {
+    &-05 {
+        &:active {
+            transform: translateY(-2px);
+        }
+    }
+    &-1 {
+        &:active {
+            transform: translateY(-4px);
+        }
+    }
+}
+
+
+/* Translate X */
+.hover--translate-x {
+    &-05 {
+        &:hover {
+            transform: translateX(-2px);
+        }
+    }
+    &-1 {
+        &:hover {
+            transform: translateX(-4px);
+        }
+    }
+    &-2 {
+        &:hover {
+            transform: translateX(-8px);
+        }
+    }
+}
+/*================================== Translate Css End  ==================================*/

@@ -1,0 +1,61 @@
+/* ========================== Settings panel css start =========================== */
+.settings-button {
+  pointer-events: all;
+  .close-icon {
+    display: none;
+  }
+  &.active {
+    .setting-icon {
+      display: none;
+    }
+    .close-icon {
+      display: block;
+    }
+  }
+}
+
+.settings-panel {
+  inset-inline-end: -280px;
+  pointer-events: none;
+  transition: 0.3s;
+  &.active {
+    inset-inline-end: 0px !important;
+    .settings-panel {
+      &__content {
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+      }
+    }
+  }
+  &__content {
+    pointer-events: all;
+    width: 280px;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+  &__button {
+    &.active {
+      background-color: var(--main-600) !important;
+    }
+  }
+}
+
+.remove-animate-cursor {
+  .cursor,
+  .dot {
+    display: none;
+  }
+}
+
+.animation-rotate {
+  animation: animationRotate 2s linear infinite;
+}
+
+@keyframes animationRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* ========================== Settings panel css end =========================== */

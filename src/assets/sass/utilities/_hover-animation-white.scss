@@ -1,0 +1,22 @@
+/* Hover animation white css start */
+.hover-animation-white {
+  position: relative;
+  overflow: hidden;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 250%;
+    height: 0%;
+    inset-inline-start: 50%;
+    inset-block-start: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%) rotate(-45deg);
+    z-index: 1;
+  }
+  &:hover:after {
+    height: 250%;
+    transition: all 0.6s linear;
+    background-color: transparent;
+  }
+}
+/* Hover animation white css end */

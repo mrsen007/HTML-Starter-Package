@@ -1,0 +1,27 @@
+/* ======================= Common Table Css Start ======================= */
+.table {
+    &>:not(caption)>*>* {
+        border-bottom: 0;
+    }
+    tr {
+        th {
+            &:first-child {
+                padding-inline-start: 0;
+            }
+            &:last-child {
+                padding-inline-end: 0;
+            }
+        }
+        th, td {
+            vertical-align: middle;
+            &:first-child {
+                text-align: left;
+            }
+            &:last-child {
+                text-align: right;
+                padding-inline-end: 0;
+            }
+        }
+    }
+}
+/* ======================= Common Table Css End ======================= */

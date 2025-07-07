@@ -1,0 +1,27 @@
+/* Inset class start */
+.tw-start {
+    &-0 {
+        inset-inline-start: 0;
+    }
+    &-50 {
+        inset-inline-start: 50%;
+    }
+    &-100 {
+        inset-inline-start: 100%;
+    }
+    &-auto {
+        inset-inline-start: auto;
+    }
+}
+.tw-end {
+    &-0 {
+        inset-inline-end: 0;
+    }
+    &-100 {
+        inset-inline-end: 100%;
+    }
+    &-auto {
+        inset-inline-end: auto;
+    }
+}
+/* Inset class End */

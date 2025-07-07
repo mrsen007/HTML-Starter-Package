@@ -1,0 +1,91 @@
+/* ================================== rtl css start ================================== */
+.text-start {
+  text-align: start !important;
+}
+.form-check {
+  padding-left: 0;
+}
+.form-check {
+  padding-inline-start: 1.5em;
+}
+.form-check .form-check-input {
+  margin-left: 0;
+}
+
+[dir="rtl"] {
+  .tw-translate-x-50 {
+    transform: translateX(50%);
+  }
+  .select-domain {
+    margin-inline-end: 0;
+  }
+  .pricing-plan .form-check {
+    padding-left: 0 !important;
+  }
+  .common-check-two .form-check-input::before {
+    transform: translate(50%, -50%);
+  }
+  .distraction-icon.seven {
+    transform: translate(50%, -50%);
+  }
+  .translate-middle-x {
+    transform: translateX(50%) !important;
+  }
+  .translate-x-100-16 {
+    transform: translateX(calc(100% - 105px));
+  }
+  .toast-message {
+    transform: translateX(-110%);
+  }
+  .toast-message.active {
+    transform: translateX(0) !important;
+  }
+  .arrow-long {
+    transform: scaleX(-1);
+  }
+  .common-check .form-check-input::before {
+    transform: translate(50%, -50%);
+  }
+  .form-check .form-check-input {
+    margin-right: -1.5em;
+  }
+
+  .top-features-slider {
+    direction: rtl;
+  }
+  .left-right-gradient::before {
+    background: linear-gradient(-90deg, #fff, transparent);
+  }
+  .left-right-gradient::after {
+    background: linear-gradient(-90deg, transparent, #ffffff);
+  }
+  .tw--translate-x-full {
+    transform: translateX(100%);
+  }
+  .image-animation:after {
+    transform: translate(50%, -50%) rotate(-45deg);
+  }
+
+  .ph-bold.ph-caret-right:before {
+    content: "\E138";
+  }
+  .ph-bold.ph-arrow-up-right:before {
+    content: "\e090";
+  }
+  .ph.ph-caret-right:before {
+    content: "\E138";
+  }
+  .ph.ph-caret-left:before {
+    content: "\E13A";
+  }
+  .ph.ph-arrow-right:before {
+    content: "\E058";
+  }
+  .ph-bold.ph-caret-left:before {
+    content: "\E13A";
+  }
+  .ph-bold.ph-caret-left:before {
+    content: "\E13A";
+  }
+}
+/* ================================== rtl css End ================================== */
