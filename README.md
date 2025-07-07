@@ -5,4 +5,4 @@ If you get both (Node & gulp) version then follow the next insturction below lis
 
 **1**. After download or clone this repository please command: 'npm install' <br>
 **2**. Then 'gulp watch' <br> <br>
-**Live Link** https://github.com/mrsen007/html-starter/src/index.html
+**Live Link** https://github.com/mrsen007/HTML-Starter-Package/src/index.html
